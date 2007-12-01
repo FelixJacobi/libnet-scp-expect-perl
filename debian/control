@@ -4,6 +4,9 @@ Priority: optional
 Maintainer: Jay Bonci <jaybonci@debian.org>
 Build-Depends-Indep: debhelper (>> 4.0.0), perl (>= 5.6.0-16), libterm-readpassword-perl, libexpect-perl (>= 1.14)
 Standards-Version: 3.6.1.0
+Homepage: http://search.cpan.org/dist/Net-SCP-Expect/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libnet-scp-expect-perl/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-perl/trunk/libnet-scp-expect-perl/
 
 Package: libnet-scp-expect-perl
 Architecture: all
