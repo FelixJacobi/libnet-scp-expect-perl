@@ -1,2 +1,2 @@
-version=2
-http://www.cpan.org/modules/by-module/Net/Net-SCP-Expect-([0-9].*)\.tar.gz
+version=3
+http://search.cpan.org/dist/Net-SCP-Expect/ .*/Net-SCP-Expect-([[:digit:]].*)\.tar\.gz
