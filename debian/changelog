@@ -1,0 +1,32 @@
+libnet-scp-expect-perl (0.12-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed, 29 Dec 2004 01:22:54 -0500
+
+libnet-scp-expect-perl (0.10-3) unstable; urgency=low
+
+  * Fixes watch file so uscan will actually work
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed,  6 Oct 2004 00:45:06 -0400
+
+libnet-scp-expect-perl (0.10-2) unstable; urgency=low
+
+  * Updated maintainer email address in control file
+
+ -- Jay Bonci <jaybonci@debian.org>  Mon,  6 Oct 2003 13:29:56 -0400
+
+libnet-scp-expect-perl (0.10-1) unstable; urgency=low
+
+  * New upstream version
+  * New CPAN url format (non-versioned), instead of version number
+  * Updated maintainer email address
+
+ -- Jay Bonci <jaybonci@debian.org>  Fri, 19 Sep 2003 00:00:08 -0400
+
+libnet-scp-expect-perl (0.09-1) unstable; urgency=low
+
+  * Initial Release. Closes bug#197817
+
+ -- Jay Bonci <jay@bonci.com>  Sat, 28 Jun 2003 22:45:39 -0400
+

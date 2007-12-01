@@ -1,0 +1,14 @@
+Source: libnet-scp-expect-perl
+Section: perl
+Priority: optional
+Maintainer: Jay Bonci <jaybonci@debian.org>
+Build-Depends-Indep: debhelper (>> 4.0.0), perl (>= 5.6.0-16), libterm-readpassword-perl, libexpect-perl (>= 1.14)
+Standards-Version: 3.6.1.0
+
+Package: libnet-scp-expect-perl
+Architecture: all
+Depends: ${perl:Depends}, libterm-readpassword-perl, libexpect-perl
+Description: Wrapper for scp to send passwords via Expect
+ Net::SCP::Expect allows you to transfer files via scp, but instead of having
+ to use shared keys or to input a password interactively, it allows you to
+ send them programmataically via Expect.
