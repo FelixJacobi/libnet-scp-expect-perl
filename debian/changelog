@@ -4,6 +4,7 @@ libnet-scp-expect-perl (0.12-2) UNRELEASED; urgency=low
     field (source stanza); Homepage field (source stanza).
   * Set Maintainer to Debian Perl Group.
   * Use dist-based URL in debian/watch.
+  * debian/rules: delete /usr/lib/perl5 only if it exists.
 
  -- gregor herrmann <gregor+debian@comodo.priv.at>  Sat, 01 Dec 2007 18:55:10 +0100
 

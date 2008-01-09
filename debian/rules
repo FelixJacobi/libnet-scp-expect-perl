@@ -30,7 +30,7 @@ install:
 	dh_installdirs
 
 	$(MAKE) PREFIX=$(CURDIR)/debian/$(PACKAGE)/usr OPTIMIZE="-O2 -g -Wall" test install
-	-find $(CURDIR)/debian -type d | xargs rmdir -p --ignore-fail-on-non-empty
+	[ ! -d $(CURDIR)/debian/$(shell dh_listpackages)/usr/lib/perl5 ] || rmdir --ignore-fail-on-non-empty --parents --verbose $(CURDIR)/debian/$(shell dh_listpackages)/usr/lib/perl5
 
 binary-arch:;
 binary-indep: build install
