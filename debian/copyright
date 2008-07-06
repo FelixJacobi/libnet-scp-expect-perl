@@ -3,23 +3,15 @@ Sat, 28 Jun 2003 22:45:39 -0400.
 
 It was downloaded from http://search.cpan.org/dist/Net-SCP-Expect
 
-Upstream Author: Daniel Berger <djberg96@hotmail.com>
+ORIGINAL AUTHOR: Daniel Berger, djberg96 at yahoo dot com
 
-Copyright:
+CURRENT AUTHOR AND MAINTAINER: Eric Rybski <rybskej@yahoo.com>
 
-        This program is free software; you can redistribute it and/or modify
-        it under the terms of either:
+COPYRIGHT: 2005-2007 Eric Rybski <rybskej@yahoo.com>, 2003-2004 Daniel J. Berger.
 
-        a) the GNU General Public License as published by the Free
-        Software Foundation; either version 1, or (at your option) any
-        later version, or
+LICENSE: Net::SCP::Expect is licensed under the same terms as Perl itself.
 
-        b) the "Artistic License"
-
-        See:
-
-        /usr/share/common-licenses/Artistic
-        /usr/share/common-licenses/GPL
-
-        For more information regarding these licensing options
-
+Perl is distributed under your choice of the GNU General Public License or
+the Artistic License.  On Debian GNU/Linux systems, the complete text of the
+GNU General Public License can be found in `/usr/share/common-licenses/GPL'
+and the Artistic Licence in `/usr/share/common-licenses/Artistic'.

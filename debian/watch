@@ -1,2 +1,2 @@
 version=3
-http://search.cpan.org/dist/Net-SCP-Expect/ .*/Net-SCP-Expect-([[:digit:]].*)\.tar\.gz
+http://search.cpan.org/dist/Net-SCP-Expect/ .*/Net-SCP-Expect-v?(\d[\d_.]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

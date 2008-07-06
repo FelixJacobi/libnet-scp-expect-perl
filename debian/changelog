@@ -7,6 +7,9 @@ libnet-scp-expect-perl (0.13-1) UNRELEASED; urgency=low
   * debian/rules: delete /usr/lib/perl5 only if it exists.
 
   * New upstream release.
+  * debian/watch: extended regexp for matching upstream releases.
+  * debian/copyright: update author/copyright/license information from
+    upstream README; refresh pointer to licenses on Debian systems.
 
  -- gregor herrmann <gregor+debian@comodo.priv.at>  Sat, 01 Dec 2007 18:55:10 +0100
 
