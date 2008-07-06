@@ -1,4 +1,4 @@
-libnet-scp-expect-perl (0.13-1) UNRELEASED; urgency=low
+libnet-scp-expect-perl (0.13-1) unstable; urgency=low
 
   * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
     field (source stanza); Homepage field (source stanza).
@@ -20,7 +20,7 @@ libnet-scp-expect-perl (0.13-1) UNRELEASED; urgency=low
     inline POD documentation).
   * Refresh debian/rules, no functional changes.
 
- -- gregor herrmann <gregor+debian@comodo.priv.at>  Sat, 01 Dec 2007 18:55:10 +0100
+ -- gregor herrmann <gregoa@debian.org>  Sun, 06 Jul 2008 14:56:34 +0200
 
 libnet-scp-expect-perl (0.12-1) unstable; urgency=low
 
