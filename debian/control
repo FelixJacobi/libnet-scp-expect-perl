@@ -2,9 +2,11 @@ Source: libnet-scp-expect-perl
 Section: perl
 Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Jay Bonci <jaybonci@debian.org>
-Build-Depends-Indep: debhelper (>> 4.0.0), perl (>= 5.6.0-16), libterm-readpassword-perl, libexpect-perl (>= 1.14)
-Standards-Version: 3.6.1.0
+Uploaders: Jay Bonci <jaybonci@debian.org>,
+ gregor herrmann <gregoa@debian.org>
+Build-Depends-Indep: debhelper (>= 5), perl (>= 5.6.0-16),
+ libterm-readpassword-perl, libexpect-perl
+Standards-Version: 3.8.0
 Homepage: http://search.cpan.org/dist/Net-SCP-Expect/
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libnet-scp-expect-perl/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-perl/trunk/libnet-scp-expect-perl/

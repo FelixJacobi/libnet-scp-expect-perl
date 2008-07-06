@@ -10,6 +10,11 @@ libnet-scp-expect-perl (0.13-1) UNRELEASED; urgency=low
   * debian/watch: extended regexp for matching upstream releases.
   * debian/copyright: update author/copyright/license information from
     upstream README; refresh pointer to licenses on Debian systems.
+  * Set debhelper compatibility level to 5.
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.8.0 (no changes).
+  * Remove version from build dependency on libexpect-perl (even oldstable has
+    a newer version).
 
  -- gregor herrmann <gregor+debian@comodo.priv.at>  Sat, 01 Dec 2007 18:55:10 +0100
 
