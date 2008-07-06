@@ -15,6 +15,7 @@ libnet-scp-expect-perl (0.13-1) UNRELEASED; urgency=low
   * Set Standards-Version to 3.8.0 (no changes).
   * Remove version from build dependency on libexpect-perl (even oldstable has
     a newer version).
+  * Move debhelper from Build-Depends-Indep to Build-Depends.
   * Remove debian/docs and don't install README any more (text version of the
     inline POD documentation).
   * Refresh debian/rules, no functional changes.
