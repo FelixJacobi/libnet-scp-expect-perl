@@ -1,3 +1,15 @@
+libnet-scp-expect-perl (0.14-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control
+    + raise debhelper version to 7
+    + add myself to uploaders
+    + add ${misc:Depends} to Depends field
+  * debian/copyright converted to (new)format
+  * refresh debian/rules with rules.dh7.noxs template
+
+ -- Rene Mayorga <rmayorga@debian.org.sv>  Mon, 11 Aug 2008 00:36:26 -0600
+
 libnet-scp-expect-perl (0.13-1) unstable; urgency=low
 
   * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser

@@ -1,17 +1,35 @@
 This package was debianized by Jay Bonci <jay@bonci.com> on
-Sat, 28 Jun 2003 22:45:39 -0400.
+Sat, 28 Jun 2003 22:45:39 -0400, and is Maintainet by the Debian Perl Group
+(pkg-perl)
 
-It was downloaded from http://search.cpan.org/dist/Net-SCP-Expect
+It was downloaded from: http://search.cpan.org/dist/Net-SCP-Expect
 
-ORIGINAL AUTHOR: Daniel Berger, djberg96 at yahoo dot com
+Upstream Author: Daniel Berger <djberg96@yahoo.com>
+                 Eric Rybski <rybskej@yahoo.com>
 
-CURRENT AUTHOR AND MAINTAINER: Eric Rybski <rybskej@yahoo.com>
+Files: * 
+Copyright: © 2003-2004 Daniel J. Berger <djberg96@yahoo.com>
+           © 2005-2007 Eric Rybski <rybskej@yahoo.com>
+License: GPL-1+ | Artistic
+ These modules are free software. They may be used, redistributed
+ and/or modified under the same terms as Perl itself.
 
-COPYRIGHT: 2005-2007 Eric Rybski <rybskej@yahoo.com>, 2003-2004 Daniel J. Berger.
+Files: debian/* 
+Copyright: © 2003-2004 Jay Bonci <jay@bonci.com>
+           © 2008 Debian Perl Group
+	          <pkg-perl-maintainers@lists.alioth.debian.org>
+License: GPL-1+ | Artistic
 
-LICENSE: Net::SCP::Expect is licensed under the same terms as Perl itself.
+The Perl license is:
+     This program is free software; you can redistribute it and/or modify
+     it under the terms of either:
 
-Perl is distributed under your choice of the GNU General Public License or
-the Artistic License.  On Debian GNU/Linux systems, the complete text of the
-GNU General Public License can be found in `/usr/share/common-licenses/GPL'
-and the Artistic Licence in `/usr/share/common-licenses/Artistic'.
+     a) the GNU General Public License as published by the Free Software
+        Foundation; either version 1, or (at your option) any later
+	version, or
+
+     b) the "Artistic License" which comes with Perl.
+
+On Debian GNU/Linux systems, the complete text of the GNU General Public
+License can be found in `/usr/share/common-licenses/GPL' and the Artistic
+Licence in `/usr/share/common-licenses/Artistic'.
