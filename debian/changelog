@@ -1,9 +1,13 @@
 libnet-scp-expect-perl (0.14-2) UNRELEASED; urgency=low
 
+  [ gregor herrmann ]
   * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
     (source stanza).
 
- -- gregor herrmann <gregoa@debian.org>  Sun, 16 Nov 2008 20:45:31 +0100
+  [ Rene Mayorga ]
+  * debian/control: update my email address.
+
+ -- Rene Mayorga <rmayorga@debian.org>  Tue, 20 Jan 2009 01:28:18 -0600
 
 libnet-scp-expect-perl (0.14-1) unstable; urgency=low
 

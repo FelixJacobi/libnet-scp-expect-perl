@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Jay Bonci <jaybonci@debian.org>,
  gregor herrmann <gregoa@debian.org>,
- Rene Mayorga <rmayorga@debian.org.sv>
+ Rene Mayorga <rmayorga@debian.org>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: perl (>= 5.6.0-16), libterm-readpassword-perl,
  libexpect-perl
