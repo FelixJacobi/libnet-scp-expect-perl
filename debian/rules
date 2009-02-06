@@ -5,12 +5,14 @@ build-stamp:
 	dh build
 	touch $@
 
-clean:
+clean:  
 	dh $@
+
 
 install: install-stamp
 install-stamp: build-stamp
 	dh install
+	rm -f -v debian/libnet-scp-expect-perl/usr/share/perl5/Net/SCP/._Expect.pm
 	touch $@
 
 binary-arch:
