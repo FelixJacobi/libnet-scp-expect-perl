@@ -1,3 +1,10 @@
+libnet-scp-expect-perl (0.16-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/rules: remove workarround for ._Expect.pm file
+
+ -- Rene Mayorga <rmayorga@debian.org>  Fri, 13 Feb 2009 18:58:41 -0600
+
 libnet-scp-expect-perl (0.15-1) unstable; urgency=low
 
   [ gregor herrmann ]
