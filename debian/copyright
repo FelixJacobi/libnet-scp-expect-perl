@@ -1,7 +1,7 @@
 Format-Specification:
     http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
 Upstream-Maintainer: Eric Rybski <rybskej@yahoo.com>
-Upstream-Source: http://search.cpan.org/dist/Net-SCP-Expect/
+Upstream-Source: https://metacpan.org/release/Net-SCP-Expect/
 Upstream-Name: Net-SCP-Expect
 
 Files: *
