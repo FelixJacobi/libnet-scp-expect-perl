@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Net-SCP-Expect
 Upstream-Contact: Eric Rybski <rybskej@yahoo.com>
-Source: https://metacpan.org/release/Net-SCP-Expect/
+Source: https://metacpan.org/release/Net-SCP-Expect
 
 Files: *
 Copyright: © 2003-2004 Daniel J. Berger <djberg96@yahoo.com>
