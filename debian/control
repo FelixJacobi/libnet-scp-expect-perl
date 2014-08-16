@@ -11,7 +11,7 @@ Build-Depends-Indep: perl, libterm-readpassword-perl,
 Standards-Version: 3.8.0
 Homepage: https://metacpan.org/release/Net-SCP-Expect
 Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libnet-scp-expect-perl.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libnet-scp-expect-perl.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libnet-scp-expect-perl.git
 
 Package: libnet-scp-expect-perl
 Architecture: all
