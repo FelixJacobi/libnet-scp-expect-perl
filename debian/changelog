@@ -24,6 +24,7 @@ libnet-scp-expect-perl (0.16-2) UNRELEASED; urgency=low
 
   [ Salvatore Bonaccorso ]
   * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
 
  -- Nathan Handler <nhandler@ubuntu.com>  Sat, 06 Jun 2009 01:36:40 +0000
 
