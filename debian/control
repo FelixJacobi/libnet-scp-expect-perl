@@ -1,7 +1,6 @@
 Source: libnet-scp-expect-perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: gregor herrmann <gregoa@debian.org>,
-           Rene Mayorga <rmayorga@debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
