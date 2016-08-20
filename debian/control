@@ -1,22 +1,27 @@
 Source: libnet-scp-expect-perl
-Section: perl
-Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Jay Bonci <jaybonci@debian.org>,
- gregor herrmann <gregoa@debian.org>,
- Rene Mayorga <rmayorga@debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>,
+           Rene Mayorga <rmayorga@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
 Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: perl, libterm-readpassword-perl,
- libexpect-perl, libnet-ipv6addr-perl
+Build-Depends-Indep: perl,
+                     libterm-readpassword-perl,
+                     libexpect-perl,
+                     libnet-ipv6addr-perl
 Standards-Version: 3.8.0
-Homepage: https://metacpan.org/release/Net-SCP-Expect
-Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libnet-scp-expect-perl.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libnet-scp-expect-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libnet-scp-expect-perl.git
+Homepage: https://metacpan.org/release/Net-SCP-Expect
 
 Package: libnet-scp-expect-perl
 Architecture: all
-Depends: ${perl:Depends}, ${misc:Depends}, libterm-readpassword-perl, 
- libexpect-perl, libnet-ipv6addr-perl
+Depends: ${perl:Depends},
+         ${misc:Depends},
+         libterm-readpassword-perl,
+         libexpect-perl,
+         libnet-ipv6addr-perl
 Description: Wrapper for scp to send passwords via Expect
  Net::SCP::Expect allows you to transfer files via scp, but instead of having
  to use shared keys or to input a password interactively, it allows you to
