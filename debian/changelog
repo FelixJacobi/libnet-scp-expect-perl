@@ -1,0 +1,102 @@
+libnet-scp-expect-perl (0.16-1+stsbl1) experimental; urgency=medium
+
+  * Fixed hang of module if auto_yes and identify_file are used at the same time.
+  * Applied patch from https://rt.cpan.org/Public/Bug/Display.html?id=68516.
+
+ -- Felix Jacobi <felix.jacobi@stsbl.de>  Tue, 18 Apr 2017 20:48:04 +0200
+
+libnet-scp-expect-perl (0.16-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/rules: remove workarround for ._Expect.pm file
+
+ -- Rene Mayorga <rmayorga@debian.org>  Fri, 13 Feb 2009 18:58:41 -0600
+
+libnet-scp-expect-perl (0.15-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+
+  [ Rene Mayorga ]
+  * New upstream release
+  * debian/control
+    + add libnet-ipv6addr-perl to B-D-I and Depends fields
+    + update my email address
+  * debian/copyright
+    + update proposal format
+    + separate debian/* copyright stanzas based on debian/changelog
+    + update upstream copyright years
+  * debian/rules: remove usr/share/perl5/Net/SCP/._Expect.pm
+    from the final .deb package
+
+ -- Rene Mayorga <rmayorga@debian.org>  Thu, 05 Feb 2009 19:02:37 -0600
+
+libnet-scp-expect-perl (0.14-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control
+    + raise debhelper version to 7
+    + add myself to uploaders
+    + add ${misc:Depends} to Depends field
+  * debian/copyright converted to (new)format
+  * refresh debian/rules with rules.dh7.noxs template
+
+ -- Rene Mayorga <rmayorga@debian.org.sv>  Mon, 11 Aug 2008 00:36:26 -0600
+
+libnet-scp-expect-perl (0.13-1) unstable; urgency=low
+
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza).
+  * Set Maintainer to Debian Perl Group.
+  * Use dist-based URL in debian/watch.
+  * debian/rules: delete /usr/lib/perl5 only if it exists.
+
+  * New upstream release.
+  * debian/watch: extended regexp for matching upstream releases.
+  * debian/copyright: update author/copyright/license information from
+    upstream README; refresh pointer to licenses on Debian systems.
+  * Set debhelper compatibility level to 5.
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.8.0 (no changes).
+  * Remove version from build dependency on libexpect-perl (even oldstable has
+    a newer version).
+  * Move debhelper from Build-Depends-Indep to Build-Depends.
+  * Remove debian/docs and don't install README any more (text version of the
+    inline POD documentation).
+  * Refresh debian/rules, no functional changes.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 06 Jul 2008 14:56:34 +0200
+
+libnet-scp-expect-perl (0.12-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed, 29 Dec 2004 01:22:54 -0500
+
+libnet-scp-expect-perl (0.10-3) unstable; urgency=low
+
+  * Fixes watch file so uscan will actually work
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed,  6 Oct 2004 00:45:06 -0400
+
+libnet-scp-expect-perl (0.10-2) unstable; urgency=low
+
+  * Updated maintainer email address in control file
+
+ -- Jay Bonci <jaybonci@debian.org>  Mon,  6 Oct 2003 13:29:56 -0400
+
+libnet-scp-expect-perl (0.10-1) unstable; urgency=low
+
+  * New upstream version
+  * New CPAN url format (non-versioned), instead of version number
+  * Updated maintainer email address
+
+ -- Jay Bonci <jaybonci@debian.org>  Fri, 19 Sep 2003 00:00:08 -0400
+
+libnet-scp-expect-perl (0.09-1) unstable; urgency=low
+
+  * Initial Release. Closes bug#197817
+
+ -- Jay Bonci <jay@bonci.com>  Sat, 28 Jun 2003 22:45:39 -0400
+
