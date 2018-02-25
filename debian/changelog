@@ -31,6 +31,9 @@ libnet-scp-expect-perl (0.16-2) UNRELEASED; urgency=low
   * Remove Jay Bonci from Uploaders. Thanks for your work!
   * Remove Rene Mayorga from Uploaders. Thanks for your work!
 
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
  -- Nathan Handler <nhandler@ubuntu.com>  Sat, 06 Jun 2009 01:36:40 +0000
 
 libnet-scp-expect-perl (0.16-1) unstable; urgency=low
