@@ -1,4 +1,6 @@
-libnet-scp-expect-perl (0.16-2) UNRELEASED; urgency=low
+libnet-scp-expect-perl (0.16-2) unstable; urgency=medium
+
+  * Team upload
 
   [ Nathan Handler ]
   * debian/watch: Update to ignore development releases.
@@ -34,7 +36,14 @@ libnet-scp-expect-perl (0.16-2) UNRELEASED; urgency=low
   [ Salvatore Bonaccorso ]
   * Update Vcs-* headers for switch to salsa.debian.org
 
- -- Nathan Handler <nhandler@ubuntu.com>  Sat, 06 Jun 2009 01:36:40 +0000
+  [ Florian Schlichting ]
+  * Mark package as source format 3.0 (quilt)
+  * Switch to short-form debian/rules
+  * Update license paragraphs to commonly used versions
+  * Bump dh compat to level 11
+  * Declare compliance with Debian Policy 4.1.5
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 06 Jul 2018 22:02:21 +0200
 
 libnet-scp-expect-perl (0.16-1) unstable; urgency=low
 
@@ -130,4 +139,3 @@ libnet-scp-expect-perl (0.09-1) unstable; urgency=low
   * Initial Release. Closes bug#197817
 
  -- Jay Bonci <jay@bonci.com>  Sat, 28 Jun 2003 22:45:39 -0400
-
