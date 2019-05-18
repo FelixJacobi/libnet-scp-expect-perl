@@ -210,21 +210,10 @@ sub scp{
 
    $scp->log_stdout(0);
 
-   my $eof = 0;
-   my $error;
-   ################################################################
-   # Some transfers can finish by the time we get here. 
-   # If $timeout_err is not set and we don't check for EOF
-   # we would wait indefinitely below for an EOF that will never happen.
-   ################################################################
    if($auto_yes){
-       $error = ($scp->expect($timeout_auto,
-           [qr/[Yy]es\/[Nn]o/ => sub { 
-	       $scp->send("yes\n"); 
-	       exp_continue; 
-	    } 
-	   ],
-	   ['eof' => sub { $eof = 1 }]))[1];
+      while($scp->expect($timeout_auto,-re=>'[Yy]es\/[Nn]o')){
+         $scp->send("yes\n");
+      }
    }
 
    if ($password) {
@@ -254,37 +243,38 @@ sub scp{
    # The exception to this is verbose output, which can mistakenly
    # be picked up by Expect.
    ################################################################
-   unless($eof) {
-       unless($no_check || $verbose){
-	   $error = ($scp->expect($timeout_err,
-               [qr/[Pp]ass.*/ => sub{
-		   my $error = $scp->before() || $scp->match();
-		   if($handler){
-		       $handler->($error);
-		       return;
-		   }
-		   else{
-		       croak("Error: Bad password [$error]");
-		   }
-		}
-	       ],
-              [qr/\w+.*/ => sub{
-		  my $error = $scp->match() || $scp->before();
-		  if($handler){
-		      $handler->($error);
-		      return;
-		  }
-		  else{
-		      croak("Error: last line returned was: $error");
-		  }
-	       }
-	      ],
-              ['eof' => sub{ $eof = 1 } ],
-         ))[1];
-       }
-       else{
-	   $error = ($scp->expect($timeout_err, ['eof' => sub { $eof = 1 }]))[1];
-       }
+   my $error;
+   my $eof = 0;
+   unless($no_check || $verbose){
+
+      $error = ($scp->expect($timeout_err,
+         [qr/[Pp]ass.*/ => sub{
+               my $error = $scp->before() || $scp->match();
+               if($handler){
+                  $handler->($error);
+                  return;
+               }
+               else{
+                  croak("Error: Bad password [$error]");
+               }
+            }
+         ],
+         [qr/\w+.*/ => sub{
+               my $error = $scp->match() || $scp->before();
+               if($handler){
+                  $handler->($error);
+                  return;
+               }
+               else{
+                  croak("Error: last line returned was: $error");
+               }
+            }
+         ],
+         ['eof' => sub{ $eof = 1 } ],
+      ))[1];
+   }
+   else{
+      $error = ($scp->expect($timeout_err, ['eof' => sub { $eof = 1 }]))[1];
    }
 
    if($verbose){ print $scp->after(),"\n" }
