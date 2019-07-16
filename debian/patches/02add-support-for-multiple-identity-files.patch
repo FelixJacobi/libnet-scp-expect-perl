@@ -1,5 +1,5 @@
---- Expect.pm.orig	2019-07-16 22:56:27.985937285 +0200
-+++ Expect.pm	2019-07-16 22:58:55.511446087 +0200
+--- /Expect.pm	2019-07-16 22:56:27.985937285 +0200
++++ /Expect.pm	2019-07-16 22:58:55.511446087 +0200
 @@ -182,7 +182,11 @@
     $flags .= "-q ";  # Always pass this option (no progress meter)
     $flags .= "-s $qt$subsystem$qt " if $subsystem;
@@ -8,7 +8,7 @@
 +   if ($identity_file)
 +   {
 +     $identity_file = [$identity_file] unless ref $identity_file eq "ARRAY";
-+     $flags .= $_ for map { "-i $qt$_$qt " } for @$identity_file;
++     $flags .= $_ for map { "-i $qt$_$qt " } @$identity_file;
 +   }
     $flags .= "-C " if $compress;
     $flags .= "-4 " if $force_ipv4;
